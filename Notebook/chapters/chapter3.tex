@@ -25,7 +25,7 @@ This section contains various text formatting settings in Latex.
 \Huge{This is hugest text.}
 
 \subsection{Text Colors}
-
+\normalsize
 \textcolor{red}{This is red text.}\\
 \textcolor{blue}{This is blue text.}\\
 \textcolor{green}{This is green text.}\\
@@ -36,3 +36,18 @@ This section contains various text formatting settings in Latex.
 \textbf{\textit{This is bold and italic text.}}\\
 \underline{\textbf{\textit{This is bold, italic, and underlined text.}}}\\
 \textcolor{blue}{\textbf{This is bold blue text.}}
+
+\subsection{Bullet Points}
+\begin{itemize}
+    \item \textbf{Preprocessor Directives}
+    \item \textbf{Global Declarations}
+    \item \textbf{Function Definitions}
+\end{itemize}
+
+\subsection{Notes}
+\begin{quote}
+    This is a note or block quote in LaTeX.
+\end{quote}
+\begin{tcolorbox}[colback=yellow!10!white, colframe=yellow!50!black, title=Note]
+    This is a customized note or block quote in LaTeX using tcolorbox.
+\end{tcolorbox}
